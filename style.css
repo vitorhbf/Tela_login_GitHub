@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    
+    
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #161b22;
+    margin-top: 30px;
+    transition: background-color 0.5s;
+    color: white;
+    fill: white;
+    
+    
+}
+
+
+#header{
+
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.btn-back{
+
+margin-bottom: 30px;
+
+}
+
+
+#meio {
+    flex-direction: column;
+    margin: 20px;
+    display: flex;
+    line-height: 1.5;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #21262d;
+    border: 1px solid #30363d;
+}
+
+.pp{
+
+    text-align: left;
+    margin-bottom: -1px;
+}
+
+.seguir {
+
+    margin: 20px;
+    display: flex;
+    line-height: 1.5;
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #238636;
+    border: 1px solid #30363d;
+    font-weight: 600;
+    
+}
+
+
+.seguir:hover {
+
+
+background-color: #3fb950;
+transition: 100ms;
+
+}
+
+.criar {
+
+    margin-top: -6px;
+    display: flex;
+    line-height: 1.5;
+    border: 1px solid #30363d;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    padding-bottom: 2px;
+    
+}
+
+input {
+    margin: 5px;
+    border-radius: 15px;
+    width: 350px;
+    height: 40px;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-width: 0.1px;
+}
+
+span.word+span {
+
+    margin-left: 140px;
+}
+span span {
+
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.create {
+
+    color: #1f6feb;
+    
+    
+}
+
+.passkey{
+
+    color: #1f6feb;
+    margin-bottom: 10px;
+
+}
+
+footer {
+
+    margin: 30px;
+}
+
+span.word2+span {
+
+    margin-left: 20px;
+}
